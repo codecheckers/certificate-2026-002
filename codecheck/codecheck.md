@@ -1,5 +1,5 @@
-# CODECHECK certificate 2025-023
-## [https://doi.org/10.5281/zenodo.14900193](https://doi.org/10.5281/zenodo.14900193)
+# CODECHECK certificate 2026-002
+## [https://codecheck.org.uk/register/certs/2026-002/](https://codecheck.org.uk/register/certs/2026-002/)
 [![CODECHECK logo](codecheck_logo.svg)](https://codecheck.org.uk)
 
 
@@ -12,12 +12,12 @@
 
 Item | Value
 :--- | :----
-Title | *FIXME add title*
-Author(s) | TODO (ORCID: 0123-4567-8910-1112)
-Reference | [https://doi.org/10.1234/example](https://doi.org/10.1234/example)
-Repository | [https://github.com/example/repo](https://github.com/example/repo)
-Codechecker(s) | FIXME (ORCID: 0123-4567-8910-1112), SOMEONE ELSE (ORCID: 0123-4567-8910-1112)
-Date of check | 2023-11-15
+Title | *Preserving privacy of spatial distances using randomized geometric surface calculations*
+Author(s) | Jonas Klingwort (ORCID: 0000-0002-4545-9136), Sarah Redlich
+Reference | [https://doi.org/10.5311/JOSIS.2025.31.375](https://doi.org/10.5311/JOSIS.2025.31.375)
+Repository | [https://github.com/jkwort/ppdc](https://github.com/jkwort/ppdc)
+Codechecker(s) | Linus Dexter Hackel (ORCID: 0009-0000-0114-8005)
+Date of check | 2026-04-10
 Summary | TODO add summary
 
 
@@ -46,14 +46,6 @@ TODO add summary
 ## CODECHECKER notes
 
 *TODO*
-
-Here is an example code block using Python.
-```python
-def fahrenheit_to_celsius(fahrenheit):
-  return (fahrenheit - 32) * 5 / 9
-
-print(fahrenheit_to_celsius(77))
-```
 
 ## Recommendations to the authors
 
@@ -89,7 +81,7 @@ CODECHECK is financially supported by the Mozilla foundation.
 
 
 
-FIXME, SOMEONE ELSE (2023). CODECHECK Certificate 2025-023. Zenodo. [https://doi.org/10.5281/zenodo.14900193](https://doi.org/10.5281/zenodo.14900193)
+Linus Dexter Hackel (2026). CODECHECK Certificate 2026-002. Zenodo. [https://codecheck.org.uk/register/certs/2026-002/](https://codecheck.org.uk/register/certs/2026-002/)
 
 
 
@@ -115,54 +107,54 @@ si.session_info(os=True, cpu=True, gpu=True, dependencies=True)
 
 
 ```bash
-six	1.17.0
-idna	3.11
-numpy	2.3.5
-platformdirs	4.5.1
-pure_eval	0.2.3
-jedi	0.19.2
-decorator	5.2.1
-pandas	3.0.0
-prompt_toolkit	3.0.52
-traitlets	5.14.3
-comm	0.2.3
-Brotli	1.2.0
-PySocks	1.7.1
-ipykernel	7.1.0
-PyYAML	6.0.3
-setuptools	80.9.0
-Pygments	2.19.2
-tornado	6.5.3
-pyzmq	27.1.0
-psutil	7.1.3
-stack_data	0.6.3
-requests	2.32.5
-pytz	2025.2
-jupyter_core	5.9.1
 charset-normalizer	3.4.4
-parso	0.8.5
-session-info2	0.3
+PyYAML	6.0.3
+pure_eval	0.2.3
+tornado	6.5.3
+jedi	0.19.2
+Brotli	1.2.0
+numpy	2.3.5
+Pygments	2.19.2
+decorator	5.2.1
+jupyter_core	5.9.1
+setuptools	80.9.0
 ipython	9.8.0
-packaging	25.0
-urllib3	2.6.1
+asttokens	3.0.1
+platformdirs	4.5.1
+traitlets	5.14.3
+idna	3.11
+prompt_toolkit	3.0.52
+psutil	7.1.3
+requests	2.32.5
+parso	0.8.5
+stack_data	0.6.3
+PySocks	1.7.1
+wcwidth	0.2.14
+session-info2	0.3
+ipykernel	7.1.0
 colorama	0.4.6
-executing	2.2.1
 debugpy	1.8.17
 jupyter_client	8.7.0
-asttokens	3.0.1
-wcwidth	0.2.14
-python-dateutil	2.9.0.post0
+pandas	3.0.0
+comm	0.2.3
 certifi	2026.1.4 (2026.01.04)
+python-dateutil	2.9.0.post0
+six	1.17.0
+urllib3	2.6.1
+pytz	2025.2
+packaging	25.0
+executing	2.2.1
+pyzmq	27.1.0
 ----	----
 Python	3.14.2 | packaged by conda-forge | (main, Dec  6 2025, 11:21:58) [GCC 14.3.0]
 OS	Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35
 CPU	16 logical CPU cores, x86_64
 GPU	No GPU found
-Updated	2026-01-27 12:25
+Updated	2026-04-10 16:20
 ```
 
 
 
 
 ## License
-The code, data, and figures created by the original authors are licensed under the ... license (see their [LICENSE file](https://github.com/codecheckers/causality-review/blob/main/LICENSE)). The content of the `codecheck` directory and this report are licensed under the ... license.
+The code and data created by the original authors are licensed under the [MIT](https://opensource.org/license/mit) license (see their [LICENSE file](https://github.com/jkwort/ppdc/blob/main/LICENSE)). The paper is licensed under the [CC BY Attribution 3.0 Unported](https://creativecommons.org/licenses/by/3.0/) license (see the [License section](https://josis.org/index.php/josis/article/view/375) in the publication). The content of the `codecheck` directory and this report are licensed under the [CC BY Attribution 3.0](https://creativecommons.org/licenses/by/3.0/) license.

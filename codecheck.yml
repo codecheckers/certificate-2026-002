@@ -1,0 +1,23 @@
+version: https://codecheck.org.uk/spec/config/1.0/
+certificate: 2026-002
+report: https://codecheck.org.uk/register/certs/2026-002/
+
+paper:
+  title: Preserving privacy of spatial distances using randomized geometric surface calculations
+  authors:
+    - name: Jonas Klingwort
+      ORCID: 0000-0002-4545-9136
+    - name: Sarah Redlich
+  reference: https://doi.org/10.5311/JOSIS.2025.31.375
+
+repository: https://github.com/jkwort/ppdc
+check_time: "2026-04-10T18:08:00"
+summary: TODO add summary
+
+codechecker:
+  - name: Linus Dexter Hackel
+    ORCID: 0009-0000-0114-8005
+
+manifest:
+  - file: example_output.txt
+    comment: Example output file - replace with actual outputs

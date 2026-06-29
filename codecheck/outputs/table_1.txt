@@ -1,0 +1,13 @@
+  base_side_of_triangle height_of_the_base_side surface_area
+1                 1.361                   1.752        1.193
+2                 1.361                   5.523        3.759
+3                 1.361                   2.727        1.856
+4                 1.361                   3.655        2.487
+5                 1.361                   2.671        1.818
+
+
+> # Mean surface area for reporting
+> round(mean(results$surface_area), 3)
+[1] 2.223
+
+=> Here seems to be something wrong

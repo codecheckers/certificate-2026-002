@@ -203,13 +203,11 @@ This certificate confirms that the codechecker could independently reproduce the
             if not fname.endswith(".csv"):
                 continue
             comment = entry.get("comment", None)
-            df = pd.read_csv(op.join("outputs", fname), **kwds)
+            df = pd.read_csv(op.join("outputs", fname), header=0)
             markdown = f"""### `{fname}`
 {('Author comment: *' + comment + '*') if comment else ' '}
 
-**Column summary statistics:**
-
-{df.describe().transpose().to_markdown(floatfmt=('.0f', '.0f', '.4f', '.4f', '.4f', '.4f', '.4f', '.4f', '.4f'))}
+{df.to_markdown(index=False)}
 """
             full_markdown.append(markdown)
 

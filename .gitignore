@@ -1,0 +1,9 @@
+data/01_results_DE.RDATA
+data/01_results_NL.RDATA
+data/shape_DE/
+data/shape_NL/
+r_packages_which_needed_to_be_installed.txt
+
+code/
+
+__pycache__/

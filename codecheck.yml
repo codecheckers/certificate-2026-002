@@ -11,7 +11,7 @@ paper:
   reference: https://doi.org/10.5311/JOSIS.2025.31.375
 
 repository: https://github.com/jkwort/ppdc
-check_time: "2026-04-10T18:08:00"
+check_time: "2026-06-29T15:50:00"
 summary: TODO add summary
 
 codechecker:
@@ -19,5 +19,13 @@ codechecker:
     ORCID: 0009-0000-0114-8005
 
 manifest:
-  - file: example_output.txt
-    comment: Example output file - replace with actual outputs
+  - file: figure_1_step_1.pdf
+    comment: Figure 1 - Step 1 - Generate base map with Germany and bounding box
+  - file: figure_1_step_2.pdf
+    comment: Figure 1 - Step 2 - Calculate true distances
+  - file: figure_1_step_3.pdf
+    comment: Figure 1 - Step 3 - Draw five random coordinates and obtain triangles
+  - file: table_1.csv
+    comment: Table 1 - Calculate surface areas of the triangles
+  - file: table_2.csv
+    comment: Table 2 - Distribution of geographical distances (Haversine distance in km) for Germanyand the Netherlands.

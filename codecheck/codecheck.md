@@ -33,8 +33,12 @@ File | Comment | Size (b)
 `figure_1_step_1.pdf` | Figure 1 - Step 1 - Generate base map with Germany and bounding box | 263198
 `figure_1_step_2.pdf` | Figure 1 - Step 2 - Calculate true distances | 263388
 `figure_1_step_3.pdf` | Figure 1 - Step 3 - Draw five random coordinates and obtain triangles | 263972
+`figure_5.pdf` | Figure 5 - Relative root mean squared error split by country (Germany in green, the Nether-lands in orange). | 7468
+`figure_6_1.pdf` | Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the German dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the German dataset and 300 random points. The green line shows the point estimate, and the gray lines show the lower and upper confidence interval limits. | 16956
+`figure_6_2.pdf` | Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the Dutch dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the Dutch dataset and one random point. The orange line shows the point estimate,  and the gray lines show the lower and upper confidence interval limits. | 16449
+`figure_8.pdf` | Figure 8 - Correlation coefficient between Haversine distance and different versions of theproxy. The x-axis shows the number of randomly sampled points used to obtain the proxy and the y-axis shows the correlation coefficient. The color and shapes indicate the version of the proxy information. | 8846
 `table_1.csv` | Table 1 - Calculate surface areas of the triangles | 226
-`table_2.csv` | Table 2 - Distribution of geographical distances (Haversine distance in km) for Germanyand the Netherlands. | 176
+`table_2.csv` | Table 2 - Distribution of geographical distances (Haversine distance in km) for Germany and the Netherlands. | 176
 
 
 
@@ -75,7 +79,7 @@ Author comment: *Table 1 - Calculate surface areas of the triangles*
 
 
 ### `table_2.csv`
-Author comment: *Table 2 - Distribution of geographical distances (Haversine distance in km) for Germanyand the Netherlands.*
+Author comment: *Table 2 - Distribution of geographical distances (Haversine distance in km) for Germany and the Netherlands.*
 
 | Country     |    Min. |    1^st Quantile |    Median |    Mean |    3^rd Quantile |    Maximum |
 |:------------|--------:|-----------------:|----------:|--------:|-----------------:|-----------:|
@@ -95,6 +99,18 @@ Author comment: *Figure 1 - Step 2 - Calculate true distances*![Author comment: 
 
 ### `figure_1_step_3.pdf`
 Author comment: *Figure 1 - Step 3 - Draw five random coordinates and obtain triangles*![Author comment: Figure 1 - Step 3 - Draw five random coordinates and obtain triangles](outputs/figure_1_step_3.pdf)
+
+### `figure_5.pdf`
+Author comment: *Figure 5 - Relative root mean squared error split by country (Germany in green, the Nether-lands in orange).*![Author comment: Figure 5 - Relative root mean squared error split by country (Germany in green, the Nether-lands in orange).](outputs/figure_5.pdf)
+
+### `figure_6_1.pdf`
+Author comment: *Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the German dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the German dataset and 300 random points. The green line shows the point estimate, and the gray lines show the lower and upper confidence interval limits.*![Author comment: Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the German dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the German dataset and 300 random points. The green line shows the point estimate, and the gray lines show the lower and upper confidence interval limits.](outputs/figure_6_1.pdf)
+
+### `figure_6_2.pdf`
+Author comment: *Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the Dutch dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the Dutch dataset and one random point. The orange line shows the point estimate,  and the gray lines show the lower and upper confidence interval limits.*![Author comment: Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the Dutch dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the Dutch dataset and one random point. The orange line shows the point estimate,  and the gray lines show the lower and upper confidence interval limits.](outputs/figure_6_2.pdf)
+
+### `figure_8.pdf`
+Author comment: *Figure 8 - Correlation coefficient between Haversine distance and different versions of theproxy. The x-axis shows the number of randomly sampled points used to obtain the proxy and the y-axis shows the correlation coefficient. The color and shapes indicate the version of the proxy information.*![Author comment: Figure 8 - Correlation coefficient between Haversine distance and different versions of theproxy. The x-axis shows the number of randomly sampled points used to obtain the proxy and the y-axis shows the correlation coefficient. The color and shapes indicate the version of the proxy information.](outputs/figure_8.pdf)
 
 
 
@@ -140,51 +156,51 @@ si.session_info(os=True, cpu=True, gpu=True, dependencies=True)
 
 
 ```bash
-platformdirs	4.5.1
-comm	0.2.3
-charset-normalizer	3.4.4
-pure_eval	0.2.3
+traitlets	5.14.3
 PyYAML	6.0.3
-stack_data	0.6.3
-debugpy	1.8.17
-numpy	2.3.5
-jedi	0.19.2
-session-info2	0.3
+certifi	2026.1.4 (2026.01.04)
+requests	2.32.5
 six	1.17.0
-executing	2.2.1
-python-dateutil	2.9.0.post0
-parso	0.8.5
-pytz	2025.2
-ipykernel	7.1.0
+tornado	6.5.3
 jupyter_client	8.7.0
+pure_eval	0.2.3
+prompt_toolkit	3.0.52
+pytz	2025.2
+setuptools	80.9.0
+session-info2	0.3
+decorator	5.2.1
+debugpy	1.8.17
+psutil	7.1.3
 packaging	25.0
 idna	3.11
-prompt_toolkit	3.0.52
-tornado	6.5.3
-decorator	5.2.1
-setuptools	80.9.0
-psutil	7.1.3
-asttokens	3.0.1
-ipython	9.8.0
-pyzmq	27.1.0
-urllib3	2.6.1
-requests	2.32.5
-traitlets	5.14.3
-Pygments	2.19.2
-jupyter_core	5.9.1
-Brotli	1.2.0
-PySocks	1.7.1
+comm	0.2.3
+charset-normalizer	3.4.4
+python-dateutil	2.9.0.post0
 tabulate	0.9.0
-certifi	2026.1.4 (2026.01.04)
+PySocks	1.7.1
+urllib3	2.6.1
+Pygments	2.19.2
+numpy	2.3.5
+stack_data	0.6.3
 pandas	3.0.0
 wcwidth	0.2.14
+platformdirs	4.5.1
+asttokens	3.0.1
+pyzmq	27.1.0
+ipykernel	7.1.0
+Brotli	1.2.0
+parso	0.8.5
+jupyter_core	5.9.1
+jedi	0.19.2
 colorama	0.4.6
+ipython	9.8.0
+executing	2.2.1
 ----	----
 Python	3.14.2 | packaged by conda-forge | (main, Dec  6 2025, 11:21:58) [GCC 14.3.0]
 OS	Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35
 CPU	16 logical CPU cores, x86_64
 GPU	No GPU found
-Updated	2026-06-29 14:11
+Updated	2026-06-29 15:22
 ```
 
 

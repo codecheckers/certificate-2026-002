@@ -25,7 +25,15 @@ manifest:
     comment: Figure 1 - Step 2 - Calculate true distances
   - file: figure_1_step_3.pdf
     comment: Figure 1 - Step 3 - Draw five random coordinates and obtain triangles
+  - file: figure_5.pdf
+    comment: Figure 5 - Relative root mean squared error split by country (Germany in green, the Nether-lands in orange).
+  - file: figure_6_1.pdf
+    comment: Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the German dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the German dataset and 300 random points. The green line shows the point estimate, and the gray lines show the lower and upper confidence interval limits.
+  - file: figure_6_2.pdf
+    comment: Figure 6 - Convergence plots based on 1,000 Monte Carlo simulations. This shows the Dutch dataset. The X-axis shows the number of samples, and the y-axis shows the MC mean. This is the Dutch dataset and one random point. The orange line shows the point estimate,  and the gray lines show the lower and upper confidence interval limits.
+  - file: figure_8.pdf
+    comment: Figure 8 - Correlation coefficient between Haversine distance and different versions of theproxy. The x-axis shows the number of randomly sampled points used to obtain the proxy and the y-axis shows the correlation coefficient. The color and shapes indicate the version of the proxy information.
   - file: table_1.csv
     comment: Table 1 - Calculate surface areas of the triangles
   - file: table_2.csv
-    comment: Table 2 - Distribution of geographical distances (Haversine distance in km) for Germanyand the Netherlands.
+    comment: Table 2 - Distribution of geographical distances (Haversine distance in km) for Germany and the Netherlands.
